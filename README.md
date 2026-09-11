@@ -1,17 +1,54 @@
-# GitKeep Releases
+# GitKeep v1.2 · 不止于 Git，Keep 你的全流程开发上下文 🚀
 
-Official binary distribution for GitKeep, a native macOS GitHub repository manager.
+GitKeep 是一款原生 macOS 开发素材工作台。
 
-This repository contains packaged application releases only. Source code and development history are maintained separately.
+最初，它只是一个优雅的 GitHub 仓库收藏夹。但在每天写代码、使用 AI 协同编程的高频实践中，我们发现开发者的灵感与物料总是散落在各处：刚刚试出来的 Agent 咒语、随手截下的 UI 走查图，以及那些值得反复品味的开源项目。
 
-## Install
+从 v1.2 开始，GitKeep 重新诠释了「Keep」的定义：
 
-1. Open the [latest release](../../releases/latest).
-2. Download the `GitKeep-*.zip` asset.
-3. Unzip it and drag `GitKeep.app` to your Applications folder.
+> **Keep 你的开源灵感、Agent 魔法咒语与即时设计物料。**
 
-Requires macOS 13.0 or later.
+## ✨ 全新工作台（Launchpad）
 
-## Downloads
+它不是冷冰冰的数据统计板，而是每天坐到电脑前写代码时的上下文补给站。
 
-See [Releases](../../releases) for version notes and download assets.
+- **⚡️ 全局快速捕捉（Quick Capture）**：链接、普通文本或图片都可以从剪贴板进入 GitKeep。URL 保存到仓库，文本一键保存为提示词，图片进入临时暂存区。
+- **🌊 活跃工作流（Context River）**：在首页集中查看最近收录的开源库、最近使用的提示词和刚刚截下的灵感图，快速恢复工作状态。
+- **📌 常用武器架（Pinned）**：常用仓库支持置顶，重要参考项目始终优先展示。
+
+## 🪄 Codex 子代理提示词库
+
+AI 时代，高质量的 Prompt 就是可复用的生产力资产。
+
+- **自动同步**：可收录本机 Codex 通过子代理下发的任务指令，保留调优过程中值得复用的提示词。
+- **快速收集**：工作台和菜单栏均可识别剪贴板普通文本，并一键保存为提示词。
+- **分栏阅读与复用**：支持全文检索、来源筛选和一键复制，随时将成熟工作流用于新的任务。
+
+## 🎨 图片剪贴板暂存区
+
+解决设计走查与多工具传递时产生大量临时图片的问题。
+
+- **临时托盘**：复制图片后自动进入当前会话的暂存区，不写入永久存储。
+- **丝滑周转**：原生支持拖拽到微信、Codex 等接受图片的 App，退出前可以批量保存。
+
+## 🫧 体验与细节
+
+- **深浅模式适配**：统一的中性视觉体系完整支持 macOS 浅色和深色外观。
+- **菜单栏快速添加**：同一个输入框自动区分仓库链接与提示词，无需先打开主窗口。
+- **快捷唤出与驻留**：关闭窗口后继续驻留菜单栏，随时恢复工作台。
+- **响应式布局**：仓库卡片、提示词分栏和主侧边栏会随窗口宽度调整。
+
+## 安装
+
+1. 打开 [Latest Release](../../releases/latest)。
+2. 下载 `GitKeep-v1.2.zip`。
+3. 解压后将 `GitKeep.app` 拖入“应用程序”文件夹。
+
+要求 macOS 13.0 或更高版本。当前安装包已经过 Developer ID 签名与 Apple 公证。
+
+## 下载与版本记录
+
+- [下载 GitKeep v1.2](../../releases/tag/v1.2)
+- [查看全部 Releases](../../releases)
+
+本仓库只提供 GitKeep 官方二进制安装包，源码与开发历史在独立仓库维护。
